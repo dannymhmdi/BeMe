@@ -29,6 +29,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+
+
+/basepage/
+اگر fluid برابر boolean:true باشد و fluid را در کامپوننت BasePage نگذاریم ، container ما در هر breakpointا ای اندازه متفاوت دارد ولی اگر fluid برابر'false' باشد و fixed را نگذاریم container بصورت fluidیا همان fulwidth اجرا می شود.
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
