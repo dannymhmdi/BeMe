@@ -1,8 +1,7 @@
-
 import LandingLayout from "@/layouts/landing-layout/landing-layout";
-import { Button, Container } from "@mui/material";
+import { BasePage } from "@/src/component/base-page";
+import { Container } from "@mui/material";
 import Image from "next/image";
-
 export default function Home() {
   const style = {
     //  width: '50%',
@@ -11,20 +10,13 @@ export default function Home() {
   return (
     <>
       <LandingLayout>
-        <div className="container flex flex-wrap" style={style}>
-          <div className="w-3/12 px-3  ">
-            <div className="border">1</div>
-          </div>
-          <div className="w-4/12 px-3">
-            <div className="border">2</div>
-          </div>
-          <div className="w-5/12 px-3">
-            <div className="border">3</div>
-          </div>
-        </div>
+      
+        <BasePage fluid={'false'}>
+          <div>01</div>
+          <div>02</div>
+          <div>03</div>
+        </BasePage>
 
-
- 
       </LandingLayout>
     </>
   );
