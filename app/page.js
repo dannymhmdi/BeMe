@@ -1,4 +1,6 @@
+
 import LandingLayout from "@/layouts/landing-layout/landing-layout";
+import { Button, Container } from "@mui/material";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,17 +23,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid">
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">01</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">02</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">03</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">04</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">05</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">06</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">07</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">08</div>
-          <div className="p-4 rounded-lg shadow-lg bg-fuchsia-500">09</div>
-        </div>
+
+ 
       </LandingLayout>
     </>
   );

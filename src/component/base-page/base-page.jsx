@@ -1,14 +1,15 @@
+import { Container } from "@mui/material";
 import React from "react";
 import { Helmet } from "react-helmet-async";
 
-const BasePage = ({children , title , fluid}) => {
+const BasePage = ({ children, title ,fluid}) => {
   return (
-    <div className={fluid ? "container-fluid" : "container"} style={style}>
+    <Container maxWidth={fluid} fixed className="border">
       <Helmet>
         <title>{title}</title>
       </Helmet>
       {children}
-    </div>
+    </Container>
   );
 };
 
