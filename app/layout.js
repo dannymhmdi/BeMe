@@ -9,8 +9,8 @@ import { generateViewport } from "next";
 export const metadata = {
   applicationName: "SKBerry",
   title: {
-    default: "Be anyone you want",
-    template: "SKBerry",
+    default: "BeMe",
+    template: "BeMe",
   },
   description: "Be anyone you want",
   manifest: "/manifest.json",
