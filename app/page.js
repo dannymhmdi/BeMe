@@ -1,5 +1,5 @@
-import { BasePage } from "@/src/component/base-page";
 import TextField from "@mui/material/TextField";
+import { BasePage } from "@/src/component/base-page";
 import LandingLayout from "@/layouts/landing-layout/landing-layout";
 export default function Home() {
   return (
